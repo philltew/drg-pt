@@ -1,0 +1,5 @@
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles2\bin\Release\DSParticles2.dll
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles2\bin\Release\DSParticles2.pdb
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles2\obj\Release\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles2\obj\Release\DSParticles2.dll
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles2\obj\Release\DSParticles2.pdb

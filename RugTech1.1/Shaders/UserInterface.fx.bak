@@ -1,0 +1,50 @@
+﻿struct VS_IN
+{
+	float2 pos : POSITION;
+	float4 col : COLOR;
+};
+
+struct PS_IN
+{
+	float4 pos : SV_POSITION;
+	float4 col : COLOR;
+};
+
+BlendState AlphaBlending
+{
+	BlendEnable[0] = TRUE;
+	SrcBlend = SRC_ALPHA;
+	DestBlend =	INV_SRC_ALPHA;
+	BlendOp	= ADD;
+	SrcBlendAlpha =	SRC_ALPHA;
+	DestBlendAlpha = INV_SRC_ALPHA;
+	BlendOpAlpha = ADD;
+	RenderTargetWriteMask[0] = 0x0F;
+};
+
+PS_IN VS( VS_IN	input )
+{
+	PS_IN output = (PS_IN)0;
+
+	output.pos = float4(input.pos[0], input.pos[1],	0, 0);
+	output.col = input.col;
+
+	return output;
+}
+
+float4 PS( PS_IN input ) : SV_Target
+{
+	return input.col;
+}
+
+technique10	LinesAndBoxes
+{
+	pass Lines
+	{
+		SetBlendState(AlphaBlending, float4(0.0f, 0.0f,	0.0f, 0.0f), 0xFFFFFFFF);
+
+		SetGeometryShader( 0 );
+		SetVertexShader( CompileShader(	vs_4_0,	VS() ) );
+		SetPixelShader(	CompileShader( ps_4_0, PS()	) );
+	}
+}

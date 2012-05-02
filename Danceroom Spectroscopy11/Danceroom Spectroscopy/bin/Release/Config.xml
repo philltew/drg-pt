@@ -1,0 +1,64 @@
+<Config>
+  <Kinect ElevationAngle="0" NearClippingPlane="0" FarClippingPlane="8000" NoiseTolerance="64.4827575683594" BackgroundCalibarationFrames="482" Bounds="49,86,862,238">
+    <Camera_0 X="329" Y="80" />
+    <Camera_1 X="649" Y="85" />
+    <Camera_2 X="345" Y="84" />
+    <Camera_3 X="0" Y="0" />
+  </Kinect>
+  <Simulation NumberOfParticles="322" ParticleScale="0.440349042415619" BerendsenThermostatCoupling="0.117556467652321" EquilibriumTemperature="924.024658203125" GradientScaleFactor="-410.6796875" PotentialEnergy="0">
+    <ParticleType_0 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+    <ParticleType_1 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+    <ParticleType_2 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+    <ParticleType_3 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+    <ParticleType_4 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+  </Simulation>
+  <Visual FeedbackLevel="0.3655031" ParticleFeedbackLevel="0.3470226" WarpPropagation="0.1658111" WarpVariance="-0.01971252" WarpPersistence="0.1811088" SelfImage="0.4579056" SelfFeedback="0" SelfColor="0.08829569" SelfFeedbackColor="0.5616016" />
+  <Osc SpeedThreshold="0.115" DistanceThreshold="2" Address="10.24.1.160" Port="5432" PortalID="1" />
+  <FFT FFTFreqency="8" CorrelationFunctionUpdateFrequency="8" FFTEnabled="True" ParticleEventsEnabled="True" PeekCount="16" SendFFTFrequency="13" />
+  <Scenes>
+    <Scene_0>
+      <Simulation NumberOfParticles="9" ParticleScale="1.00902462005615" BerendsenThermostatCoupling="0.149897336959839" EquilibriumTemperature="1950.71862792969" GradientScaleFactor="52977.40625" PotentialEnergy="0">
+        <ParticleType_0 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+        <ParticleType_1 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+        <ParticleType_2 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+        <ParticleType_3 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+        <ParticleType_4 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+      </Simulation>
+      <Visual FeedbackLevel="0" ParticleFeedbackLevel="1" WarpPropagation="0.1658111" WarpVariance="-0.01971252" WarpPersistence="0.1811088" SelfImage="0.4579056" SelfFeedback="0" SelfColor="0.08829569" SelfFeedbackColor="0.5616016" />
+      <FFT FFTFreqency="8" CorrelationFunctionUpdateFrequency="8" FFTEnabled="True" ParticleEventsEnabled="True" PeekCount="16" SendFFTFrequency="13" />
+    </Scene_0>
+    <Scene_1>
+      <Simulation NumberOfParticles="129" ParticleScale="0.604291558265686" BerendsenThermostatCoupling="0.149897336959839" EquilibriumTemperature="1950.71862792969" GradientScaleFactor="52977.40625" PotentialEnergy="0">
+        <ParticleType_0 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+        <ParticleType_1 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+        <ParticleType_2 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+        <ParticleType_3 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+        <ParticleType_4 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+      </Simulation>
+      <Visual FeedbackLevel="0.02669405" ParticleFeedbackLevel="1" WarpPropagation="0.1658111" WarpVariance="-0.01971252" WarpPersistence="0.1811088" SelfImage="0.4579056" SelfFeedback="0" SelfColor="0.08829569" SelfFeedbackColor="0.5616016" />
+      <FFT FFTFreqency="8" CorrelationFunctionUpdateFrequency="8" FFTEnabled="True" ParticleEventsEnabled="True" PeekCount="16" SendFFTFrequency="13" />
+    </Scene_1>
+    <Scene_2>
+      <Simulation NumberOfParticles="632" ParticleScale="1.00902462005615" BerendsenThermostatCoupling="0.149897336959839" EquilibriumTemperature="1950.71862792969" GradientScaleFactor="52977.40625" PotentialEnergy="0">
+        <ParticleType_0 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+        <ParticleType_1 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+        <ParticleType_2 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+        <ParticleType_3 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+        <ParticleType_4 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+      </Simulation>
+      <Visual FeedbackLevel="0" ParticleFeedbackLevel="1" WarpPropagation="0.1658111" WarpVariance="-0.01971252" WarpPersistence="0.1811088" SelfImage="0.4579056" SelfFeedback="0" SelfColor="0.08829569" SelfFeedbackColor="0.5616016" />
+      <FFT FFTFreqency="8" CorrelationFunctionUpdateFrequency="8" FFTEnabled="True" ParticleEventsEnabled="True" PeekCount="16" SendFFTFrequency="13" />
+    </Scene_2>
+    <Scene_3>
+      <Simulation NumberOfParticles="426" ParticleScale="1.00902462005615" BerendsenThermostatCoupling="0.149897336959839" EquilibriumTemperature="1950.71862792969" GradientScaleFactor="52977.40625" PotentialEnergy="0">
+        <ParticleType_0 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+        <ParticleType_1 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="True" />
+        <ParticleType_2 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+        <ParticleType_3 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+        <ParticleType_4 AttractiveOrRepulsive="True" IsSoundOn="True" IsEnabled="False" />
+      </Simulation>
+      <Visual FeedbackLevel="0" ParticleFeedbackLevel="1" WarpPropagation="0.1658111" WarpVariance="-0.01971252" WarpPersistence="0.1811088" SelfImage="0.4579056" SelfFeedback="0" SelfColor="0.08829569" SelfFeedbackColor="0.5616016" />
+      <FFT FFTFreqency="8" CorrelationFunctionUpdateFrequency="8" FFTEnabled="True" ParticleEventsEnabled="True" PeekCount="16" SendFFTFrequency="13" />
+    </Scene_3>
+  </Scenes>
+</Config>

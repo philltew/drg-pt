@@ -1,0 +1,44 @@
+﻿
+
+
+Graph 
+X - Ticks
+X - Peaks
+
+FFT 
+ - FFT Options (should be user controled) 
+X - FFT Freq (how often we do the FFT) 
+X - FFT Enabled
+ - Particle Events Enabled
+ - FFT (number of Frames) 
+X - How Often particle update there correlation function 
+ - Turn off FFT for some particle types
+
+Particle Type Editor 
+ - Color
+ - Mass
+X - Attractive / Repulsive
+X - Enable / Disable
+
+X Resize Particle Space in Realtime
+
+X Fix Warp Grid 
+
+X Field Image Palette
+
+X Field Image Feed Back
+
+X Send FFT Data 
+
+Midi Controls 
+
+X 1) data for Joe
+X 2) self image palette
+X - Options
+X - More Gradiants
+- 3) read/write scenes
+4) calibration read/write
+5) knob control
+6) scale kinect field image w/o scaling particles
+7) Flip Image 
+

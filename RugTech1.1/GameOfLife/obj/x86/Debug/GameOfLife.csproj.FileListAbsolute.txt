@@ -1,0 +1,7 @@
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\GameOfLife\bin\Debug\Compute.fx
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\GameOfLife\bin\Debug\Render.fx
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\GameOfLife\bin\Debug\GameOfLife.exe
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\GameOfLife\bin\Debug\GameOfLife.pdb
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\GameOfLife\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\GameOfLife\obj\x86\Debug\GameOfLife.exe
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\GameOfLife\obj\x86\Debug\GameOfLife.pdb

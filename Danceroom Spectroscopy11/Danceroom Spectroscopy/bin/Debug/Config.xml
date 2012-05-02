@@ -1,0 +1,12 @@
+<Config>
+  <Kinect ElevationAngle="0" NearClippingPlane="0" FarClippingPlane="8000" NoiseTolerance="0" BackgroundCalibarationFrames="1000" Bounds="182,0,564,400">
+    <Camera_0 X="449" Y="70" />
+    <Camera_1 X="180" Y="67" />
+    <Camera_2 X="0" Y="0" />
+    <Camera_3 X="0" Y="0" />
+  </Kinect>
+  <Simulation NumberOfParticles="100" ParticleScale="0.526206910610199" BerendsenThermostatCoupling="0.568965494632721" EquilibriumTemperature="100000" GradientScaleFactor="3000" PotentialEnergy="0" />
+  <Visual FeedbackLevel="0.7724138" WarpPropagation="-0.01103448" WarpVariance="3" WarpPersistence="-0.002758621" />
+  <Osc SpeedThreshold="0.115" DistanceThreshold="2" Address="10.24.1.160" Port="5432" PortalID="1" />
+  <Scenes />
+</Config>

@@ -1,0 +1,7 @@
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\BasicCompute\bin\Release\BasicComputeShader.hlsl
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\BasicCompute\bin\Release\BasicCompute.exe
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\BasicCompute\bin\Release\BasicCompute.pdb
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\BasicCompute\bin\Release\Rug.Cmd.dll
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\BasicCompute\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\BasicCompute\obj\x86\Release\BasicCompute.exe
+C:\Code\CSharp\RugProjects\Art\RugTech1.1\BasicCompute\obj\x86\Release\BasicCompute.pdb

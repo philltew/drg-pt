@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A65B3563-E40D-41B0-ABEC-AC08AC793C06}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DS</RootNamespace>
+    <AssemblyName>Danceroom Spectroscopy</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenNI.Net, Version=1.5.2.23, Culture=neutral, PublicKeyToken=6b43d0c6cf74ee7f, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\..\..\Program Files\OpenNI\Bin64\OpenNI.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
+    <Reference Include="Rug.Cmd">
+      <HintPath>..\..\Me and My Shadow\Include\Rug.Cmd.dll</HintPath>
+    </Reference>
+    <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=AMD64">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\SlimDX SDK (January 2012)\Bin\net40\x64\SlimDX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ventuz.OSC">
+      <HintPath>..\Include\Ventuz.OSC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArtworkOptions.cs" />
+    <Compile Include="ArtworkStaticObjects.cs" />
+    <Compile Include="Audio\ConnectionInterfaces.cs" />
+    <Compile Include="Audio\MidiData.cs" />
+    <Compile Include="Audio\MidiInterfaces.cs" />
+    <Compile Include="Audio\MidiMaster.cs" />
+    <Compile Include="Audio\MidiOutput.cs" />
+    <Compile Include="Audio\MidiPort.cs" />
+    <Compile Include="Audio\MidiWrapper.cs" />
+    <Compile Include="Audio\OscEventRecorder.cs" />
+    <Compile Include="Audio\OscOutput.cs" />
+    <Compile Include="Effects\ParticleEffect.cs" />
+    <Compile Include="Kinect\KinectFieldImageTextureFloat.cs" />
+    <Compile Include="Kinect\KinectFieldImageTexture.cs" />
+    <Compile Include="Kinect\KinectBackgroundFilter.cs" />
+    <Compile Include="Kinect\KinectColorImageTexture.cs" />
+    <Compile Include="Kinect\KinectDevice.cs" />
+    <Compile Include="Kinect\KinectDeviceMaster.cs" />
+    <Compile Include="Kinect\KinectHelper.cs" />
+    <Compile Include="Kinect\KinectDepthImageTexture.cs" />
+    <Compile Include="MainWindow.cs" />
+    <Compile Include="Objects\ImposterFloatPaletteEffect.cs" />
+    <Compile Include="Objects\ImageBoxFloatPalette.cs" />
+    <Compile Include="Objects\PeekGraph.cs" />
+    <Compile Include="Objects\WarpGridEffect.cs" />
+    <Compile Include="Objects\ImageBoxFloat.cs" />
+    <Compile Include="Objects\ImposterFloat.cs" />
+    <Compile Include="Objects\ImposterFloatEffect.cs" />
+    <Compile Include="Objects\ParticleRender.cs" />
+    <Compile Include="Objects\TestImageFloat.cs" />
+    <Compile Include="Objects\WarpGrid.cs" />
+    <Compile Include="Panels\Controls\NonDragableRegion.cs" />
+    <Compile Include="Panels\Controls\DragableRegion.cs" />
+    <Compile Include="Panels\Controls\CompositeFieldImageEditor.cs" />
+    <Compile Include="Panels\Controls\CompositeFieldImagePanel.cs" />
+    <Compile Include="Panels\FFTPanel.cs" />
+    <Compile Include="Panels\KinectImageTunerPanel.cs" />
+    <Compile Include="Panels\KinectPanel.cs" />
+    <Compile Include="Panels\OscPanel.cs" />
+    <Compile Include="Panels\ParticlePanel.cs" />
+    <Compile Include="Panels\ParticlesPanel.cs" />
+    <Compile Include="Panels\RealTimePanel.cs" />
+    <Compile Include="Panels\SimulationPanel.cs" />
+    <Compile Include="Panels\VisualPanel.cs" />
+    <Compile Include="Simulation\CompositeFieldImageCS.cs" />
+    <Compile Include="Simulation\FFTScanner.cs" />
+    <Compile Include="Simulation\FieldGradiantCS.cs" />
+    <Compile Include="Simulation\OverlapRegion.cs" />
+    <Compile Include="Panels\PanelBase.cs" />
+    <Compile Include="Panels\SplashScreen.cs" />
+    <Compile Include="Panels\VisiblePanelControler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scenes\SetupScene.cs" />
+    <Compile Include="Scenes\SimulationScene.cs" />
+    <Compile Include="Simulation\CompositeFieldImage.cs" />
+    <Compile Include="Simulation\KinectFieldImage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Shaders\ComputeField.hlsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Shaders\ImposterFloatPalette.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Shaders\WarpGrid.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Shaders\ImposterFloat.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Shaders\Particles2.fx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RugTech1.1\RugTech1.csproj">
+      <Project>{E125E49B-B7E8-46DF-B793-9D0299059A74}</Project>
+      <Name>RugTech1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSParticles3\DSParticles3.csproj">
+      <Project>{8C690674-FB42-428D-9B1E-F11DCA73E452}</Project>
+      <Name>DSParticles3</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Physics\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\ds-palette.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Palette00.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\particle2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\TestBuffer1_320x240.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\TestBuffer1_640x480.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\TestBuffer0_320x240.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\TestBuffer0_640x480.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\TestBuffer2_320x240.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\TestBuffer2_640x480.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

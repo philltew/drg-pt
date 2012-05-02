@@ -1,0 +1,50 @@
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\bin\Release\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\bin\Release\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\obj\Release\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\obj\Release\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\obj\Release\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\bin\Release\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\bin\Release\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\obj\Release\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\obj\Release\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\obj\Release\DSParticles3.pdb
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Assets\font-matrix-old.fm
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Assets\font-matrix.fm
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\UserInterface.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Imposter.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Bloom.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Volume.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\EnvMapObj2.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\EnvMapObj.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Material2.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Material.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Particles.fx
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\DSParticles3.dll
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\DSParticles3.pdb
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\alglibnet2.dll
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\RugTech1.dll
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\Rug.Cmd.dll
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\bin\Release\RugTech1.pdb
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\obj\Release\ResolveAssemblyReference.cache
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\obj\Release\DSParticles3.dll
+C:\Code\Danceroom Spectroscopy 260412 OpenNI\Danceroom Spectroscopy11\DSParticles3\obj\Release\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Assets\font-matrix-old.fm
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Assets\font-matrix.fm
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\UserInterface.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Imposter.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Bloom.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Volume.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\EnvMapObj2.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\EnvMapObj.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Material2.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Material.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Shaders\Particles.fx
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\alglibnet2.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\RugTech1.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\Rug.Cmd.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Release\RugTech1.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\obj\Release\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\obj\Release\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\obj\Release\DSParticles3.pdb

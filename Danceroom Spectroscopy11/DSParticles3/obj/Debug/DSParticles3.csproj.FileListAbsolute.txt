@@ -1,0 +1,15 @@
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\bin\Debug\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\bin\Debug\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\obj\Debug\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Play\Galaxy02\Galaxy02\DSParticles3\obj\Debug\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\bin\Debug\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\bin\Debug\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\obj\Debug\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy\DSParticles3\obj\Debug\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Debug\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\bin\Debug\DSParticles3.pdb
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\obj\Debug\DSParticles3.dll
+C:\Code\CSharp\RugProjects\Art\Danceroom Spectroscopy11\DSParticles3\obj\Debug\DSParticles3.pdb

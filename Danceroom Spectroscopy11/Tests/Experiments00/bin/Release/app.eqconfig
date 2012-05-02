@@ -1,0 +1,21 @@
+﻿<config Version="2">
+  <OutputFolder>$(AppDir)</OutputFolder>
+  <ReportFolderNetFull>$(SystemRoot)\Temp\EQATECProfilerLogs</ReportFolderNetFull>
+  <ReportFolderNetCF>\Temp\EQATECProfilerLogs</ReportFolderNetCF>
+  <AutoSnapshot>Main OnStop ApplicationEnd</AutoSnapshot>
+  <TinyMethodAction>Skip</TinyMethodAction>
+  <ServerControlHost />
+  <ServerControlPort>4515</ServerControlPort>
+  <RuntimeModuleLogLevel>Errors</RuntimeModuleLogLevel>
+  <ExcludeFiles>
+    <ExcludeFile>Rug.Cmd.dll</ExcludeFile>
+    <ExcludeFile>DSParticlesOpt.dll</ExcludeFile>
+    <ExcludeFile>DSParticleOpt2.dll</ExcludeFile>
+    <ExcludeFile>DSParticlesOpt3.dll</ExcludeFile>
+    <ExcludeFile>DSParticles2.dll</ExcludeFile>
+    <ExcludeFile>DSParticles.dll</ExcludeFile>
+  </ExcludeFiles>
+  <SignActions />
+  <AppType>FullNet</AppType>
+  <InputFolderOK>true</InputFolderOK>
+</config>

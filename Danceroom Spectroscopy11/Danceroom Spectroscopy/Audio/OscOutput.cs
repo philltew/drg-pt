@@ -207,6 +207,18 @@ namespace DS.Audio
 			}
 		}
 
+		public void SendLFOValue(float lfoValue)
+		{
+			m_PacketCount++;
+
+			if (m_Connected == true)
+			{
+				OscElement message = new OscElement("/lfo", lfoValue);
+
+				OSCWriter.Send(message);
+			}
+		}
+
 		object[] temp; 
 
 		public void SendFFTData(float[] peeksFreqAndIntensity)
@@ -270,5 +282,6 @@ namespace DS.Audio
 		*/ 
 
 		#endregion
+
 	}
 }

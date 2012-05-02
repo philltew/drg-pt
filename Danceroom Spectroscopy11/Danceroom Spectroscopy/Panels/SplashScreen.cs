@@ -224,7 +224,7 @@ namespace DS.Panels
 			{
 
                 float lfoValue = ((1f / maxValue) * (float)ArtworkStaticObjects.Ensemble.xtest[ArtworkStaticObjects.Ensemble.xtest.Length / 4]);
-                ArtworkStaticObjects.OscControler.SendLFOValue(lfoValue); 
+                ArtworkStaticObjects.OscControler.SendLFOValue(lfoValue);  // FIX THIS PHILL 
 
 				//ArtworkStaticObjects.FFTScanner.ScanForPeakFrequencyAndIntensity(ArtworkStaticObjects.Ensemble.AveragedFFTamplitudes, 60f / ((float)ArtworkStaticObjects.Options.FFT.CorrelationFunctionUpdateFrequency * 2f));
 				ArtworkStaticObjects.FFTScanner.ScanForPeakFrequencyAndIntensity(ArtworkStaticObjects.Ensemble.AveragedFFTamplitudes, ArtworkStaticObjects.Ensemble.FFTfreqs, GameEnvironment.FramesPerSecond, (float)ArtworkStaticObjects.Options.FFT.CorrelationFunctionUpdateFrequency);

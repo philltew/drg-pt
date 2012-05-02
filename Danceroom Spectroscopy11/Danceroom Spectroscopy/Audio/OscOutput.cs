@@ -155,6 +155,7 @@ namespace DS.Audio
 		public void ResetPacketCount()
 		{
 			m_PacketCount = 0; 
+			m_CollisionPacketCount = 0;
 		}
 
 		public void SendPacket(float x, float y, float type, float speed)

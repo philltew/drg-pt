@@ -266,7 +266,7 @@ namespace DS.Scenes
 
 			//m_TargetBox.Rectangle = new RectangleF(-1, -offsetY * m_HeightScale, 2, height * scale * m_HeightScale);
             m_TargetBox.Rectangle = new RectangleF(-1, -1, 2, 2);
-			m_TargetBox.FlipHorizontal = true; 
+			//m_TargetBox.FlipHorizontal = true; 
 			m_TargetBox.Render(); 
 		}
 

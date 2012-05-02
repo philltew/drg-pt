@@ -124,7 +124,7 @@ namespace DS
 		{
 			m_OscControler = new OscOutput();
 
-			m_OscControler.FFTDataRecorder = new OscEventRecorder(RugTech1.Helper.ResolvePath("~/FFT_Record.txt"));
+			//m_OscControler.FFTDataRecorder = new OscEventRecorder(RugTech1.Helper.ResolvePath("~/FFT_Record.txt"));
 
 			m_Options = new ArtworkOptions();
 

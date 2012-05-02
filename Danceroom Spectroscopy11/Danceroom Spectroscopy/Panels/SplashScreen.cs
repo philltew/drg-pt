@@ -174,8 +174,21 @@ namespace DS.Panels
 
             }
 
+            float maxValue = 0; 
+
             for (int i = 0; i < ArtworkStaticObjects.Ensemble.xtest.Length; i++)
             {
+                float value = (float)ArtworkStaticObjects.Ensemble.xtest[i]; 
+
+                if (value < 0 && maxValue < value * -1)
+                {
+                    maxValue = value * -1; 
+                }
+                else if (value > 0 && maxValue < value)
+                {
+                    maxValue = value; 
+                }
+
                 m_CorrelationFunctionGraph.AddValue((float)ArtworkStaticObjects.Ensemble.xtest[i]);    
             }
 			
@@ -209,6 +222,10 @@ namespace DS.Panels
 
 			if (ArtworkStaticObjects.FFTScanner.ShouldScan == true)
 			{
+
+                float lfoValue = ((1f / maxValue) * (float)ArtworkStaticObjects.Ensemble.xtest[ArtworkStaticObjects.Ensemble.xtest.Length / 4]);
+                ArtworkStaticObjects.OscControler.SendLFOValue(lfoValue); 
+
 				//ArtworkStaticObjects.FFTScanner.ScanForPeakFrequencyAndIntensity(ArtworkStaticObjects.Ensemble.AveragedFFTamplitudes, 60f / ((float)ArtworkStaticObjects.Options.FFT.CorrelationFunctionUpdateFrequency * 2f));
 				ArtworkStaticObjects.FFTScanner.ScanForPeakFrequencyAndIntensity(ArtworkStaticObjects.Ensemble.AveragedFFTamplitudes, ArtworkStaticObjects.Ensemble.FFTfreqs, GameEnvironment.FramesPerSecond, (float)ArtworkStaticObjects.Options.FFT.CorrelationFunctionUpdateFrequency);
 

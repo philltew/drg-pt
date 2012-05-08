@@ -173,7 +173,20 @@ namespace DS.Audio
 
 			if (m_Connected == true)
 			{
-				OscElement message = new OscElement("/c", x, y, type, speed);
+				//OscElement message = new OscElement("/c", x, y, type, speed);
+				
+				int modulateVelocity = (int)speed; 
+
+				if (modulateVelocity < 0)
+				{
+					modulateVelocity = 0; 
+				}
+				else if (modulateVelocity > 127)
+ 				{
+					modulateVelocity = 127; 
+				}
+
+				OscElement message = new OscElement("/renoise/trigger/note_on", (int)type, (int)type, (int)60, modulateVelocity);
 
 				OSCWriter.Send(message); 
 			}
@@ -196,7 +209,20 @@ namespace DS.Audio
 
 			if (m_Connected == true)
 			{			
-				OscElement message = new OscElement("/c", data.X, data.Y, data.Z, data.W);
+				//OscElement message = new OscElement("/c", data.X, data.Y, data.Z, data.W);
+
+				int modulateVelocity = (int)data.W;
+
+				if (modulateVelocity < 0)
+				{
+					modulateVelocity = 0;
+				}
+				else if (modulateVelocity > 127)
+				{
+					modulateVelocity = 127;
+				}
+
+				OscElement message = new OscElement("/renoise/trigger/note_on", (int)data.Z, (int)data.Z, (int)60, modulateVelocity);
 
 				OSCWriter.Send(message);
 			}

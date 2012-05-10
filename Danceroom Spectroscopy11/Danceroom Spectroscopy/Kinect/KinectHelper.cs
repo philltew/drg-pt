@@ -10,7 +10,7 @@ namespace DS.Kinect
 {
 	public enum KinectCopyMode { WithIdent, BackgroundElimination, NoIdent }
 
-	static class KinectHelper
+	public static class KinectHelper
 	{
 		public const int BLUE_IDX = 2;
 		public const int GREEN_IDX = 1;
@@ -519,7 +519,6 @@ namespace DS.Kinect
 					int i = 0; 
 					for (int y = 0; y < bmd.Height; y++)
 					{
-
 						uint* row = (uint*)((byte*)bmd.Scan0 + (y * bmd.Stride));
 
 						for (int x = 0; x < bmd.Width; x++)
@@ -530,6 +529,34 @@ namespace DS.Kinect
 				}
 
 				bmp.UnlockBits(bmd); 
+			}
+		}
+
+		public static void FillTestBuffer(short[] buffer, string path)
+		{
+			string filePath = Helper.ResolvePath(path);
+
+			using (Bitmap bmp = (Bitmap)Bitmap.FromFile(filePath))
+			{
+				BitmapData bmd = bmp.LockBits(new Rectangle(0, 0, bmp.Width, bmp.Height), System.Drawing.Imaging.ImageLockMode.ReadOnly, PixelFormat.Format32bppArgb); // bmp.PixelFormat);
+
+				unsafe
+				{
+					int i = 0;
+					for (int y = 0; y < bmd.Height; y++)
+					{
+						uint* row = (uint*)((byte*)bmd.Scan0 + (y * bmd.Stride));
+
+						for (int x = 0; x < bmd.Width; x++)
+						{
+							byte value = (byte)((row[x] & 0x00ff0000) >> 16);
+
+							buffer[i++] = (short)(value * 31);
+						}
+					}
+				}
+
+				bmp.UnlockBits(bmd);
 			}
 		}
 	}

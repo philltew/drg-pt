@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCompute", "..\RugTech1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldTextureTest", "FieldTextureTest\FieldTextureTest.csproj", "{EB787140-1710-474C-A225-834CFCEE63ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundFillTest", "BackgroundFillTest\BackgroundFillTest.csproj", "{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,16 @@ Global
 		{EB787140-1710-474C-A225-834CFCEE63ED}.Release|Mixed Platforms.Build.0 = Release|x86
 		{EB787140-1710-474C-A225-834CFCEE63ED}.Release|x86.ActiveCfg = Release|x86
 		{EB787140-1710-474C-A225-834CFCEE63ED}.Release|x86.Build.0 = Release|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Debug|x86.ActiveCfg = Debug|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Debug|x86.Build.0 = Debug|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Release|Any CPU.ActiveCfg = Release|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Release|x86.ActiveCfg = Release|x86
+		{C77E190F-E92B-4F66-BEB2-03A6BED5A0D8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

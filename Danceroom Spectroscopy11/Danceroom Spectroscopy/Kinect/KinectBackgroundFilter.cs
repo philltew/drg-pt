@@ -7,7 +7,9 @@ using System.IO;
 
 namespace DS.Kinect
 {
-	class KinectBackgroundFilter
+	public enum BackgroundPixelClassification { Empty, Patchy, Stable, Noisy }
+
+	public class KinectBackgroundFilter
 	{
 		const ushort MagicNumber = 0xF2F4;		
 
